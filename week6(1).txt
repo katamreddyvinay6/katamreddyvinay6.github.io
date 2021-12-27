@@ -1,11 +1,11 @@
 <html>
 <body>
-<title> 'a8a5204d'</title>
+<title> KATAMREDDY VINAYKUMARREDDY W S a8a5204d </title>
 <h1> Welcome to my guessing game</h1>
 
 <?php
-$correctnumber=279; //change this number //
-if($_GET['guess'])
+$correctnumber=14;
+if(isset($_GET['guess']))
 {
   if (is_numeric($_GET['guess'])===FALSE)
  {
